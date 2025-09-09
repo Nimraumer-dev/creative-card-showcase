@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #7f7fd5;
+    background: linear-gradient(to right, #a1b8e3, #e3db9d, #db95cb, #41f4d6);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 2rem;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* width: 22rem; */
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background: #ECE9E6;
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+
+}
+
+.body-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.body-content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+
+}
+
+
+.btn {
+    align-self: flex-start;
+    padding: 8px 12px;
+    border-radius: 1rem;
+    font-size: 12px;
+}
+
+.btn+.btn {
+    margin-left: .5rem;
+}
+
+.button-blue {
+    background-color: #56CCF2;
+    color: #fafafa;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #5bcde4, #a764da);
+}
+
+.body-content a {
+    text-decoration: none;
+}
+
+.button-blue:hover {
+    color: #2e3baf;
+    background: linear-gradient(to bottom, #b4dbff, #afffb5);
+}
+
+
+.button-brown {
+    background: #D1913c;
+    background: linear-gradient(to bottom, #ffd195, #e07337);
+    color: #fafafa;
+    cursor: pointer;
+
+}
+
+.button-brown:hover {
+    color: #794f18;
+    background: linear-gradient(to bottom, #ffa4ce, #ffb296);
+
+}
+
+.card:hover {
+    transform: scale(1.09);
+}
+
+
+
+.button-red {
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #ff685d, #ff3687);
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.button-red:hover {
+    background: linear-gradient(to bottom, #8afbff, #ffacdf);
+    color: #831b25;
+
+}
+
+.body-content h4 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+}
+
+.footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: 20px;
+
+}
+
+.profile {
+    display: flex;
+    gap: .5rem;
+
+}
+
+.profileimg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.info {
+    margin-top: 10px;
+
+}
+
+.info>small {
+    color: #666;
+}
+
+
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
