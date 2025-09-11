@@ -21,9 +21,9 @@ This project highlights **Technology, Food, and Automobile** using clean layouts
 ---
 
 ## 🔗 Live Preview
-[Live Demo Link](#) 
+[Live Demo Link](https://nimraumer-dev.github.io/creative-card-showcase/) 
 
 ---
 
 ## 📸 Preview
-![Project Preview](./img/screenshot.png)
+![Project Preview](./img/Projectpreview.jpg)
