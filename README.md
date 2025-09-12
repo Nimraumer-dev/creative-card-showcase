@@ -21,9 +21,8 @@ This project highlights **Technology, Food, and Automobile** using clean layouts
 ---
 
 ## 📸 Preview
-<<<<<<< HEAD
+
 ![Project Preview](./img/Projectpreview.jpg)
-=======
-![Screenshot 2025-09-09 204132]
->>>>>>> 556ad7ffb74ada22f0a4814d006d925479d2bb8e
+
+
  
